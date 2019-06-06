@@ -7,27 +7,27 @@
   * Find code<br />
   
   'YandexMoneySystem'=>array(<br />
-    'filePath' =>'YandexMoney/YandexMoneySystem.php',<br />
-    'listName' =>'YandexMoney',<br />
-    'class'    => null<br />
+   &nbsp;&nbsp; 'filePath' =>'YandexMoney/YandexMoneySystem.php',<br />
+   &nbsp;&nbsp; 'listName' =>'YandexMoney',<br />
+   &nbsp;&nbsp; 'class'    => null<br />
 	),<br />
-	'QiWiSystem'=>array(<br />
-		'filePath' =>'QiWi/QiWiSystem.php',<br />
-		'listName' =>'QiWi',<br />
-		'class'    => null<br />
+   'QiWiSystem'=>array(<br />
+   &nbsp;&nbsp;		'filePath' =>'QiWi/QiWiSystem.php',<br />
+   &nbsp;&nbsp;		'listName' =>'QiWi',<br />
+   &nbsp;&nbsp;		'class'    => null<br />
 	), <br />
-	'PayPalSystem'=>array( <br />
-		'filePath' =>'PayPal/PayPalSystem.php', <br />
-		'listName' =>'PayPal', <br />
-		'class'    => null <br />
+   'PayPalSystem'=>array( <br />
+   &nbsp;&nbsp;		'filePath' =>'PayPal/PayPalSystem.php', <br />
+   &nbsp;&nbsp;		'listName' =>'PayPal', <br />
+   &nbsp;&nbsp;		'class'    => null <br />
 	),  <br />
 
   * Add new method
 
-	'AssetPayments'=>array(<br />
-		'filePath' =>'AssetPayments/AssetPayments.php',<br />
-		'listName' =>'AssetPayments',<br />
-		'class'    => null<br />
+   'AssetPayments'=>array(<br />
+   &nbsp;&nbsp;		'filePath' =>'AssetPayments/AssetPayments.php',<br />
+   &nbsp;&nbsp;		'listName' =>'AssetPayments',<br />
+   &nbsp;&nbsp;		'class'    => null<br />
 	),<br />
 	
 * Copy Upload contents to root directory of your site via ftp
