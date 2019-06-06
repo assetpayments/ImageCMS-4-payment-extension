@@ -4,31 +4,31 @@
 
 * Backup your webstore and database (module replaces files!!!)
 * Edit file application/modules/shop/classes/SPaymentSystems.php 
-  * Find code
+  * Find code<br />
   
-  'YandexMoneySystem'=>array(
-    'filePath' =>'YandexMoney/YandexMoneySystem.php',
-    'listName' =>'YandexMoney',
-    'class'    => null
-	),
-	'QiWiSystem'=>array(
-		'filePath' =>'QiWi/QiWiSystem.php',
-		'listName' =>'QiWi',
-		'class'    => null
-	),
-	'PayPalSystem'=>array(
-		'filePath' =>'PayPal/PayPalSystem.php',
-		'listName' =>'PayPal',
-		'class'    => null
-	),
+  'YandexMoneySystem'=>array(<br />
+    'filePath' =>'YandexMoney/YandexMoneySystem.php',<br />
+    'listName' =>'YandexMoney',<br />
+    'class'    => null<br />
+	),<br />
+	'QiWiSystem'=>array(<br />
+		'filePath' =>'QiWi/QiWiSystem.php',<br />
+		'listName' =>'QiWi',<br />
+		'class'    => null<br />
+	), <br />
+	'PayPalSystem'=>array( <br />
+		'filePath' =>'PayPal/PayPalSystem.php', <br />
+		'listName' =>'PayPal', <br />
+		'class'    => null <br />
+	),  <br />
 
   * Add new method
 
-	'AssetPayments'=>array(
-		'filePath' =>'AssetPayments/AssetPayments.php',
-		'listName' =>'AssetPayments',
-		'class'    => null
-	),
+	'AssetPayments'=>array(<br />
+		'filePath' =>'AssetPayments/AssetPayments.php',<br />
+		'listName' =>'AssetPayments',<br />
+		'class'    => null<br />
+	),<br />
 	
 * Copy Upload contents to root directory of your site via ftp
 * Create the module in Settings -> Payment Method 
